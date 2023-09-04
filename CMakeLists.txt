@@ -123,6 +123,10 @@ install(TARGETS ${library_name}
   RUNTIME DESTINATION lib/${PROJECT_NAME}
 )
 
+install(DIRECTORY cmake
+  DESTINATION lib
+)
+
 install(DIRECTORY example
   DESTINATION share/${PROJECT_NAME}
 )
